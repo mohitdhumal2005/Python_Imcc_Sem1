@@ -36,5 +36,5 @@ print(text.endswith("hi"))
 print("Simple Split: ",text.split())
 
 # join() - joins the list into single sentence
-words = ["My","name","is","Mohit"]
-print(" ".join(words))
+wordss = ["My","name","is","Mohit"]
+print(" ".join(wordss))
