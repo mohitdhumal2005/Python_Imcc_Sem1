@@ -1,0 +1,12 @@
+read() - reads entire filr as String returns String
+readLine() - read file line by line (reads first line by default)
+readLines() - reads all lines as List, returns List of String (It also includes the new line characters)
+write() - writes in file, can overwrite the file
+seek() - moves file pointer
+tell() - returns the current file pointer, returns int
+
+when using simple open() we have to close the file explicitly, so use with open so it will automatically close the file
+with open("filename") as f:
+    l1 = f.readLine()
+    print(l1)
+    print(f.read(6))
